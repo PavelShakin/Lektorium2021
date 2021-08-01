@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdbdf">
+
+    <TextView
+        android:id="@+id/user_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Shakin Pavlo Dmitrovich"
+        android:textColor="#f1544a"
+        android:textSize="30sp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="#4caf50"
+        android:padding="50dp"
+        android:src="@drawable/index">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_under_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_centerHorizontal="true"
+        android:text="This text placed just below the green square"
+        android:textAlignment="center"
+        android:textColor="#fb9f1f"
+        android:textSize="30sp">
+    </TextView>
+</RelativeLayout>
