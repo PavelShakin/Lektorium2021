@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "test Task1"
 include ':testTask1'
+include ':testTask2'
