@@ -22,8 +22,7 @@
         android:layout_centerInParent="true"
         android:background="#4caf50"
         android:padding="50dp"
-        android:src="@drawable/index">
-    </ImageView>
+        android:src="@drawable/index"></ImageView>
 
     <TextView
         android:id="@+id/text_under_image_view"
